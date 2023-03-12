@@ -17,7 +17,7 @@ import com.tkhskt.flaggable.Flaggable
 import com.tkhskt.flaggable.sample.ui.theme.FlaggableTheme
 
 private const val FLAG_KEY_RELEASE = "release"
-private const val FLAG_KEY_DEBUG = "develop"
+private const val FLAG_KEY_DEBUG = "debug"
 private const val COMPOSABLE_NAME_TEXT = "FlagText"
 
 class MainActivity : ComponentActivity() {
