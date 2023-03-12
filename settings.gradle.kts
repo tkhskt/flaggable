@@ -14,8 +14,7 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "flaggable"
-//include(":lib")
+include(":lib")
 if (System.getenv("JITPACK") == null) {
     include(":sample")
 }
-include(":lib")

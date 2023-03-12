@@ -1,4 +1,4 @@
-package com.tkhskt.flaggable.annotation
+package com.tkhskt.flaggable
 
 @Target(AnnotationTarget.FUNCTION)
 @Retention(AnnotationRetention.SOURCE)

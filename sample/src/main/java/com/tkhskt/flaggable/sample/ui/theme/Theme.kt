@@ -1,4 +1,4 @@
-package com.tkhskt.flaggable.ui.theme
+package com.tkhskt.flaggable.sample.ui.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme

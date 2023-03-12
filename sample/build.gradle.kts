@@ -1,7 +1,7 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
-//    alias(libs.plugins.ksp)
+    alias(libs.plugins.ksp)
 }
 
 @Suppress("UnstableApiUsage")
@@ -64,6 +64,6 @@ dependencies {
     testImplementation(libs.bundles.test)
     androidTestImplementation(libs.bundles.android.test)
 
-//    implementation(project(":lib"))
-//    ksp(project(":lib"))
+    implementation(project(":lib"))
+    ksp(project(":lib"))
 }
