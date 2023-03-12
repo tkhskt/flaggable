@@ -30,6 +30,8 @@ Annotate the target Composable Function with the `@Flaggable`.
 
 The Flaggable annotation should be passed the key used to switch the Composable to be displayed and the name of the Composable Function to be generated as parameters.
 
+Multiple Composable Functions to be switched should be placed in the same package.
+
 ```kotlin
 private const val FLAG_KEY_RELEASE = "release"
 private const val FLAG_KEY_DEBUG = "debug"
