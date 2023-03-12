@@ -54,7 +54,7 @@ project(":lib") {
 object LibraryInfo {
     const val artifactId = "flaggable"
     const val description =
-        "Generates DSL to simplify processing branching by when expressions in sealed class/interface."
+        "A library for switching the display of Composables according to keys, like Feature Flag."
     const val displayName = "flaggable"
     const val group = "com.tkhskt"
     const val url = "https://github.com/tkhskt/flaggable"
