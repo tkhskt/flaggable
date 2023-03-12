@@ -1,5 +1,7 @@
 # Flaggable [![](https://jitpack.io/v/com.tkhskt/flaggable.svg)](https://jitpack.io/#com.tkhskt/flaggable)
 
+🚧 **EXPERIMENTAL** 🚧
+
 Flaggable is a library for switching Composable according to keys like Feature Flag.
 
 ## Setup
